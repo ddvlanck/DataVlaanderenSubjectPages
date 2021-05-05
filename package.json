@@ -1,0 +1,32 @@
+{
+  "name": "data-vlaanderen-subject-pages",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bin/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc -b"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ddvlanck/DataVlaanderenSubjectPages.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ddvlanck/DataVlaanderenSubjectPages/issues"
+  },
+  "homepage": "https://github.com/ddvlanck/DataVlaanderenSubjectPages#readme",
+  "devDependencies": {
+    "@types/node": "^15.0.2",
+    "typescript": "^4.2.4"
+  },
+  "dependencies": {
+    "@treecg/actor-init-ldes-client": "^2.0.7",
+    "commander": "^7.2.0",
+    "file-system-cache": "^1.0.5",
+    "jsonld": "^5.2.0",
+    "jsonld-streaming-parser": "^2.3.0"
+  }
+}
